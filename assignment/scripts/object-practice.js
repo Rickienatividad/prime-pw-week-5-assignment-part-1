@@ -24,7 +24,7 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
-const fullName = me.firstName + " " + me.lastName;
+const fullName = `${me.firstName} ${me.lastName}`;
 console.log(fullName);
 
 
@@ -54,4 +54,4 @@ console.log(`New shoe count: `,me.shoeCount);
 */
 
 me.favoriteColor = 'Blue';
-console.log(me.favoriteColor);
+console.log(me);
